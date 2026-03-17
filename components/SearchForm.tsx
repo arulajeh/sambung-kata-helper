@@ -23,6 +23,7 @@ export default function SearchForm({ initialStart = '', initialEnd = '' }: Searc
           onChange={(e) => setStart(e.target.value)}
           placeholder="e.g. p"
           maxLength={20}
+          autoFocus
         />
       </div>
       
